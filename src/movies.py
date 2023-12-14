@@ -36,7 +36,8 @@ def openAccessTokenFile():
 def mainProgram():
     response = requestApi('popular')
     moviesArray = parseJson(response.json())
-    pprint(moviesArray)
+    return moviesArray
 
 if __name__ == "__main__":
-    mainProgram()
+    print (mainProgram())
+    # pprint(mainProgram())
