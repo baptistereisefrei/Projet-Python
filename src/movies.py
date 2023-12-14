@@ -1,5 +1,4 @@
 import requests
-from rich.pretty import pprint
 
 def parseJson(jsonFile):
     if (jsonFile == None):
@@ -40,4 +39,3 @@ def mainProgram():
 
 if __name__ == "__main__":
     print (mainProgram())
-    # pprint(mainProgram())
